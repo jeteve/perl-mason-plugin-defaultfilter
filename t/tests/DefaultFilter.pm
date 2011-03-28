@@ -16,7 +16,6 @@ sub test_defaultfilter : Test(1) {
     my $self = shift;
 
     $self->test_comp(
-        path => '/test/defaultfilter.m',
         src  => <<'EOF',
 <%class>
 my $foo = <<'EOT';
